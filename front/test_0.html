@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="../css/normailize.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>멋사 특강 신청</h1>
+  <form action="index.html" method="post">
+    <fieldset>
+      <legend>수강 신청인</legend>
+      <div class="form">
+        <ul>
+          <li>
+            <label for="name">대학교</label>
+            <input type="text" id="school">
+          </li>
+          <li>
+            <label for="name">이름</label>
+            <input type="text" id="name">
+          </li>
+          <li>
+            <label for="major">학과</label>
+            <select id="major">
+              <optgroup label="공과대학">
+                <option value="architecture">건축공학과</option>
+                <option value="mechanic">기계공학과</option>
+                <option value="industry">산업공학과</option>
+                <option value="electric">전기전자공학과</option>
+                <option value="computer">컴퓨터공학과</option>
+                <option value="chemistry">화학공학과</option>
+              </optgroup>
+              <optgroup label="인문대학">
+                <option value="history">사학과</option>
+                <option value="language">어문학부</option>
+                <option value="philosophy">철학</option>
+              </optgroup>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </fieldset>
+  </form>
+  <button type="button" class="btn btn-primary">Primary</button>
+</body>
+</html>

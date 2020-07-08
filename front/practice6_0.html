@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>멋사 수강 신청</title>
+  <style>
+    div {
+      color:#23b521;
+      margin:10px;
+    }
+    .button {
+      padding:5px;
+    }
+    fieldset {
+      margin:15px;
+      padding:10px;
+      padding-left:50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>멋사 수강 신청</h1>
+  <form action="index.html" method="post">
+    <fieldset>
+      <legend>수강과목</legend>
+      <div>
+        <label for="time">HTML5+CSS3</label>
+        <input type="text" id="time" value="오전 9:00~11:00" readonly>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>신청자</legend>
+      <div>
+        <label for="name">이름</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label for="id">학번</label>
+        <input type="text" id="id" placeholder="하이픈없이 입력">
+      </div>
+      <div>
+        <label for="major">학과</label>
+        <select id="major">
+          <option value="computer">컴퓨터공학과</option>
+          <option value="math">수학과</option>
+          <option value="mechanic">기계공학과</option>
+        </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>교재 주문</legend>
+      <div>
+        <label for="book">교재</label>
+        <input type="text" id="book">
+      </div>
+      <div>
+        <label for="worksheet">워크시트</label>
+        <input type="text" id="worksheet">
+      </div>
+      <div>
+        <label for="order">단체주문</label>
+        <input type="text" id="order">
+      </div>
+    </fieldset>
+    <fieldset class="button">
+      <button type="submit">신청하기</button>
+      <button type="reset">다시쓰기</button>
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+legend {
+  font-weight: bold;
+}
+
+.form {
+  margin-left: 50px;
+}
+
+.form li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+label {
+  color: #0eb310;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+legend {
+  font-weight: bold;
+}
+
+
+.form li {
+  margin: 10px 30px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+@media all and (max-width:873px) {
+  .form li {
+    display: block;
+  }
+}
+
+label {
+  color: #0eb310;
+  font-weight: bold;
+}

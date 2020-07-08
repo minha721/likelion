@@ -1,0 +1,19 @@
+* {
+  font-family: 'Sunflower', sans-serif;
+}
+
+div {
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+span {
+  color: #c9520c;
+  font-weight: bold;
+}
